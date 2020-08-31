@@ -37,9 +37,22 @@
 // var students2 = [...students1,"khan","sahab"];
 // console.log(students2);
 
-var students1 ={
-    name : "ghous",
-    school : "s.m"
+// var students1 ={
+//     name : "tanzeel",
+//     school : "s.m"
+// }
+// var students2 = {...students1,class:"five"}
+// console.log(students2)
+
+// object destructuring //
+
+var student = {
+    name : "tanzeel",
+    university : "ssuet"
 }
-var students2 = {...students1,class:"five"}
-console.log(students2)
+// console.log(student.name);
+
+// now in ES6 object destructuring name uni ku get krka as a vraiable save krlaga //
+
+let {name,university} = student
+console.log(name)
