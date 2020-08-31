@@ -1,6 +1,6 @@
-// ES6 //
+// *ES6* //
 
-//var//
+//*var*//
 
 // var fname = "tanzeel";
 // function name() {
@@ -8,19 +8,19 @@
 // }
 // name()
 
-//let//
+//*let8//
 
 // let fname = "tanzeel"
 // let fname = "khan"
 // console.log (fname);
 
-//const //
+//*const*//
 
 // const fname = "tanzeel"
 // const fname = "khan"
 // console.log(fname)
 
-//templelate literals //
+//*templelate literals*//
 
 // var fname = "tanzeel";
 // var lname = "khan";
@@ -31,7 +31,7 @@
 // let full = (`my name is ${fname}`);
 // console.log(full)
 
-// spread operators // 
+//*spread operators*// 
 
 // var students1 = ["ali" ,"tanzeel"]
 // var students2 = [...students1,"khan","sahab"];
@@ -44,15 +44,32 @@
 // var students2 = {...students1,class:"five"}
 // console.log(students2)
 
-// object destructuring //
+//*object destructuring*//
 
-var student = {
-    name : "tanzeel",
-    university : "ssuet"
-}
+// var student = {
+//     name : "tanzeel",
+//     university : "ssuet"
+// }
 // console.log(student.name);
 
 // now in ES6 object destructuring name uni ku get krka as a vraiable save krlaga //
 
-let {name,university} = student
-console.log(name)
+// let {name,university} = student
+// console.log(name)
+
+//*ternary operators*//
+
+// var age = 20;
+ 
+// let check = age > 30 ? "greater then 30" : "less than 30" ;
+// console.log(check) 
+
+// let bool = true;
+// let name = bool && "tanzeel"
+// console.log(name)
+
+// ** async or sync js ** //
+console.log("number 1")
+console.log("number 2")
+console.log("number 3")
+
